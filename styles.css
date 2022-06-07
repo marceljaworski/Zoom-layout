@@ -85,8 +85,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0.5rem ;
-    bottom: 0;
-    margin-inline: ;  
+    bottom: 0; 
 }
 footer p {
     font-size: 1.3rem;
