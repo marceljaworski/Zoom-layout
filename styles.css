@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #282B28;
+    color: #efefef;
+    text-transform: capitalize;
+    height: 100%;
+}
+header {
+    width: 100%;
+    background-color: #222222;
+    position: fixed;
+    top: 0;
+    z-index: 1; 
+
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+
+}
+.container { 
+    width: 100%;
+    position: relative;
+    gap: 1rem;
+    padding: 2rem 4rem 12rem 4rem;
+    top: 8rem;
+    
+}
+.container div {
+    position: relative;
+}
+img {
+    width: 100%;
+    border-radius: 15px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    
+}
+.container div i {
+    color: #06b306;
+    position: absolute;
+    align-items: flex-end;
+    right: 3%;
+    bottom: 5%;
+    font-size: 2.5rem;   
+}
+@media (min-width: 450px){
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);}
+    }
+@media (min-width: 725px){
+    .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);}
+
+}
+@media (min-width: 1097px){
+    .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);}
+
+}
+@media (min-width: 1469px){
+    .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);}
+
+}
+
+
+footer {
+    width: 100%;
+    background-color: #222222;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0.5rem ;
+    bottom: 0;
+    margin-inline: ;  
+}
+footer p {
+    font-size: 1.3rem;
+    padding: 8px 0;
+}
+footer i {
+    font-size: 1.8rem;
+    color: #efefef;
+    
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+     
+}
+
+input {
+    color: #efefef;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff0000;
+    cursor: pointer;
+    
+}
+
+.container div::before {
+    background-color: rgba(0, 0, 0, 0.276);
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem;
+    content: "";
+    bottom: 5%;
+    left: 3%;
+    position: absolute;
+    color: white;
+    font-weight: 400;
+}
+.container div:nth-child(1)::before {
+    content: "Zaid";
+}
+.container div:nth-child(2)::before {
+    content: "Vaso";
+}
+.container div:nth-child(3)::before {
+    content: "Leo";
+}
+.container div:nth-child(4)::before {
+    content: "Vural";
+}
+.container div:nth-child(5)::before {
+    content: "Ella";
+}
+.container div:nth-child(6)::before {
+    content: "Dominick";
+}
+.container div:nth-child(7)::before {
+    content: "Marvin";
+}
+.container div:nth-child(8)::before {
+    content: "Monsif";
+}
+.container div:nth-child(9)::before {
+    content: "Marcel";
+}
+
+
+
